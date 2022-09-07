@@ -1,0 +1,61 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Calculated parameters & limit values:
+ *
+ * $averageCharWidth       : 0.7 em
+ * $fullH1Size             : 1.8 (factor)
+ * $smallerH1Size          : 1.5 (factor)
+ *
+ * $menuWidth              : 24 em
+ * $menuCompactWidth       : 8 em
+ *
+ * $extraMargin            : 3 em
+ * $smallExtraMargin       : 1 em
+ *
+ * $Limitcompactmenu       : 27 em
+ * $limitHamburgerMenu     : 11 em
+ * $limitCompactLayout     : 30 em
+ * $limitNarrowLayout      : 1 em
+ * $limitVeryNarrowLayout  : 1 em
+ */
+
+@import url(bm-responsiveness-compact-menu.css)
+  (max-width:27em);
+@import url(bm-responsiveness-hamburger.css)
+  (max-width:11em);
+
+/* switch to hamburger menu as soon as compact layout gets active! */
+
+@import url(bm-responsiveness-hamburger.css)
+  (max-width:30em);
+@import url(bm-responsiveness-compact-layout.css)
+  (max-width:30em);
+
+@import url(bm-responsiveness-narrow.css)
+  (max-width:1em);
+@import url(bm-responsiveness-very-narrow.css)
+  (max-width:1em);
